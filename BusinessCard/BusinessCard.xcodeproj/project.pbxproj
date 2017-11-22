@@ -88,8 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				8E0F6E9E1FC622B200270075 /* Main.storyboard */,
-				8E0F6EA11FC622B200270075 /* Assets.xcassets */,
 				8E0F6EA31FC622B200270075 /* LaunchScreen.storyboard */,
+				8E0F6EA11FC622B200270075 /* Assets.xcassets */,
 			);
 			path = View;
 			sourceTree = "<group>";
