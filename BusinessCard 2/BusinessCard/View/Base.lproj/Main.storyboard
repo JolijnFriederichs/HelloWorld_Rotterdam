@@ -25,9 +25,9 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="In2-PZ-2WU" userLabel="BussinessCard">
                                 <rect key="frame" x="37" y="44" width="300" height="400"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qwb-y1-s9Z" userLabel="LogoView">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="qwb-y1-s9Z" userLabel="LogoView">
                                         <rect key="frame" x="90" y="140" width="120" height="120"/>
-                                        <color key="backgroundColor" red="0.0" green="1" blue="0.65739924630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="120" id="ZUk-4r-JDr"/>
                                             <constraint firstAttribute="width" constant="120" id="btP-Go-sOn"/>
@@ -39,9 +39,9 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="z4i-Wv-6qG" userLabel="LogoView">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="z4i-Wv-6qG" userLabel="LogoView">
                                         <rect key="frame" x="112.5" y="162.5" width="75" height="75"/>
-                                        <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="75" id="sQK-Og-wB1"/>
                                             <constraint firstAttribute="width" constant="75" id="yUj-Zu-BkD"/>
@@ -81,7 +81,7 @@
                                 </state>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="QYq-wm-JKO">
-                                <rect key="frame" x="35.5" y="552" width="304" height="31"/>
+                                <rect key="frame" x="35.5" y="568" width="304" height="31"/>
                             </slider>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -97,7 +97,7 @@
                             <constraint firstItem="kow-Co-NP5" firstAttribute="centerX" secondItem="In2-PZ-2WU" secondAttribute="centerX" id="hWu-3e-HDv"/>
                             <constraint firstItem="A8i-sO-QKw" firstAttribute="height" secondItem="In2-PZ-2WU" secondAttribute="height" id="jrM-IF-mzI"/>
                             <constraint firstItem="A8i-sO-QKw" firstAttribute="centerY" secondItem="In2-PZ-2WU" secondAttribute="centerY" id="uEr-c7-HnG"/>
-                            <constraint firstItem="QYq-wm-JKO" firstAttribute="top" secondItem="kow-Co-NP5" secondAttribute="bottom" constant="16" id="ywo-fx-htt"/>
+                            <constraint firstItem="QYq-wm-JKO" firstAttribute="top" secondItem="kow-Co-NP5" secondAttribute="bottom" constant="32" id="ywo-fx-htt"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -117,4 +117,7 @@
             <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Logo" width="360" height="360"/>
+    </resources>
 </document>
